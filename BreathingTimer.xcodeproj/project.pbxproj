@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		646C03251ED0B65400F3E930 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646C03181ED0B5BD00F3E930 /* Roboto-Black.ttf */; };
+		646C03261ED0B65900F3E930 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646C03191ED0B5BE00F3E930 /* Roboto-BlackItalic.ttf */; };
+		646C03271ED0B65900F3E930 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646C031A1ED0B5BE00F3E930 /* Roboto-Bold.ttf */; };
+		646C03281ED0B65900F3E930 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646C031B1ED0B5BE00F3E930 /* Roboto-BoldItalic.ttf */; };
+		646C03291ED0B65900F3E930 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646C031C1ED0B5BE00F3E930 /* Roboto-Italic.ttf */; };
+		646C032A1ED0B65900F3E930 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646C031D1ED0B5BE00F3E930 /* Roboto-Light.ttf */; };
+		646C032B1ED0B65900F3E930 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646C031E1ED0B5BE00F3E930 /* Roboto-LightItalic.ttf */; };
+		646C032C1ED0B65900F3E930 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646C031F1ED0B5BE00F3E930 /* Roboto-Medium.ttf */; };
+		646C032D1ED0B65900F3E930 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646C03201ED0B5BE00F3E930 /* Roboto-MediumItalic.ttf */; };
+		646C032E1ED0B65900F3E930 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646C03211ED0B5BE00F3E930 /* Roboto-Regular.ttf */; };
+		646C032F1ED0B65900F3E930 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646C03221ED0B5BE00F3E930 /* Roboto-Thin.ttf */; };
+		646C03301ED0B65900F3E930 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646C03231ED0B5BE00F3E930 /* Roboto-ThinItalic.ttf */; };
+		64CEDB031ECCD50C003E2CCD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEDB021ECCD50C003E2CCD /* Extensions.swift */; };
 		64F8031F1ECB556300036366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8031E1ECB556300036366 /* AppDelegate.swift */; };
 		64F803211ECB556300036366 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F803201ECB556300036366 /* TimerController.swift */; };
 		64F803241ECB556300036366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F803221ECB556300036366 /* Main.storyboard */; };
@@ -15,6 +28,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		646C03181ED0B5BD00F3E930 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		646C03191ED0B5BE00F3E930 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		646C031A1ED0B5BE00F3E930 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		646C031B1ED0B5BE00F3E930 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		646C031C1ED0B5BE00F3E930 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		646C031D1ED0B5BE00F3E930 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		646C031E1ED0B5BE00F3E930 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		646C031F1ED0B5BE00F3E930 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		646C03201ED0B5BE00F3E930 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		646C03211ED0B5BE00F3E930 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		646C03221ED0B5BE00F3E930 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		646C03231ED0B5BE00F3E930 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		64CEDB021ECCD50C003E2CCD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		64F8031B1ECB556300036366 /* BreathingTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreathingTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F8031E1ECB556300036366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64F803201ECB556300036366 /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
@@ -35,6 +61,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		646C03241ED0B5C500F3E930 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				646C03181ED0B5BD00F3E930 /* Roboto-Black.ttf */,
+				646C03191ED0B5BE00F3E930 /* Roboto-BlackItalic.ttf */,
+				646C031A1ED0B5BE00F3E930 /* Roboto-Bold.ttf */,
+				646C031B1ED0B5BE00F3E930 /* Roboto-BoldItalic.ttf */,
+				646C031C1ED0B5BE00F3E930 /* Roboto-Italic.ttf */,
+				646C031D1ED0B5BE00F3E930 /* Roboto-Light.ttf */,
+				646C031E1ED0B5BE00F3E930 /* Roboto-LightItalic.ttf */,
+				646C031F1ED0B5BE00F3E930 /* Roboto-Medium.ttf */,
+				646C03201ED0B5BE00F3E930 /* Roboto-MediumItalic.ttf */,
+				646C03211ED0B5BE00F3E930 /* Roboto-Regular.ttf */,
+				646C03221ED0B5BE00F3E930 /* Roboto-Thin.ttf */,
+				646C03231ED0B5BE00F3E930 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		64F803121ECB556300036366 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +99,14 @@
 		64F8031D1ECB556300036366 /* BreathingTimer */ = {
 			isa = PBXGroup;
 			children = (
+				646C03241ED0B5C500F3E930 /* Resources */,
 				64F8031E1ECB556300036366 /* AppDelegate.swift */,
 				64F803201ECB556300036366 /* TimerController.swift */,
 				64F803221ECB556300036366 /* Main.storyboard */,
 				64F803251ECB556300036366 /* Assets.xcassets */,
 				64F803271ECB556300036366 /* LaunchScreen.storyboard */,
 				64F8032A1ECB556300036366 /* Info.plist */,
+				64CEDB021ECCD50C003E2CCD /* Extensions.swift */,
 			);
 			path = BreathingTimer;
 			sourceTree = "<group>";
@@ -124,9 +171,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646C03301ED0B65900F3E930 /* Roboto-ThinItalic.ttf in Resources */,
+				646C032F1ED0B65900F3E930 /* Roboto-Thin.ttf in Resources */,
 				64F803291ECB556300036366 /* LaunchScreen.storyboard in Resources */,
 				64F803261ECB556300036366 /* Assets.xcassets in Resources */,
+				646C032B1ED0B65900F3E930 /* Roboto-LightItalic.ttf in Resources */,
+				646C03271ED0B65900F3E930 /* Roboto-Bold.ttf in Resources */,
+				646C032D1ED0B65900F3E930 /* Roboto-MediumItalic.ttf in Resources */,
+				646C03261ED0B65900F3E930 /* Roboto-BlackItalic.ttf in Resources */,
 				64F803241ECB556300036366 /* Main.storyboard in Resources */,
+				646C03291ED0B65900F3E930 /* Roboto-Italic.ttf in Resources */,
+				646C03281ED0B65900F3E930 /* Roboto-BoldItalic.ttf in Resources */,
+				646C032C1ED0B65900F3E930 /* Roboto-Medium.ttf in Resources */,
+				646C032E1ED0B65900F3E930 /* Roboto-Regular.ttf in Resources */,
+				646C03251ED0B65400F3E930 /* Roboto-Black.ttf in Resources */,
+				646C032A1ED0B65900F3E930 /* Roboto-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64F803211ECB556300036366 /* TimerController.swift in Sources */,
+				64CEDB031ECCD50C003E2CCD /* Extensions.swift in Sources */,
 				64F8031F1ECB556300036366 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +362,7 @@
 				64F8032F1ECB556300036366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
