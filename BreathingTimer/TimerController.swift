@@ -33,13 +33,27 @@ class TimerController: UIViewController {
     // Reset ui if screen is tapped to sync breathing
     // TODO: Fix weird reset on exhale
     @IBAction func syncTimeAndBreath(_ sender: Any) {
+        // Reset UI Colors
+        UIView.transition(with: shape, duration: 0.5, options: .transitionCrossDissolve, animations: {
+            self.shape.backgroundColor = self.dark
+        }, completion: nil)
+        UIView.transition(with: directionText, duration: 0.5, options: .transitionCrossDissolve, animations: {
+            self.directionText.textColor = self.medium
+        }, completion: nil)
+        UIView.transition(with: instructions, duration: 0.5, options: .transitionCrossDissolve, animations: {
+            self.instructions.textColor = self.medium
+        }, completion: nil)
+        UIView.transition(with: time, duration: 0.5, options: .transitionCrossDissolve, animations: {
+            self.time.textColor = self.light
+        }, completion: nil)
+        
         curTime = START_TIME
-        directionText.textColor = medium
-        instructions.textColor = medium
-        time.textColor = medium
-        shape.backgroundColor = dark
         breathDirection = true
         directionText.text = actions[0]
+        
+        // Add letter spacing to inhale/exhale
+        directionText.letter(spacing: 15.0)
+        
         time.text = "\(curTime)"
         UILabel.animate(withDuration: 0, delay: 0, options: .beginFromCurrentState, animations: { () -> Void in
             self.shape?.transform = CGAffineTransform(scaleX: 1.0, y: 1.0)
@@ -97,6 +111,9 @@ class TimerController: UIViewController {
                 }, completion: nil)
                 
                 directionText.text = actions[1]
+                // Add letter spacing to inhale/exhale
+                directionText.letter(spacing: 15.0)
+                
                 time.text = ""
             
             // If less than PAUSE_TIME then do nothing
@@ -121,6 +138,9 @@ class TimerController: UIViewController {
                 curTime = START_TIME
                 breathDirection = false
                 directionText.text = actions[2]
+                // Add letter spacing to inhale/exhale
+                directionText.letter(spacing: 15.0)
+                
                 time.text = "\(curTime)"
             }
         // Exhale
@@ -153,6 +173,9 @@ class TimerController: UIViewController {
                 }, completion: nil)
                 
                 directionText.text = actions[1]
+                // Add letter spacing to inhale/exhale
+                directionText.letter(spacing: 15.0)
+                
                 time.text = ""
                 
             // If less than PAUSE_TIME then do nothing
@@ -177,19 +200,11 @@ class TimerController: UIViewController {
                 curTime = START_TIME
                 breathDirection = true
                 directionText.text = actions[0]
+                // Add letter spacing to inhale/exhale
+                directionText.letter(spacing: 15.0)
+                
                 time.text = "\(curTime)"
             }
         }
     }
 }
-
-
-
-//UILabel.animate(withDuration: 6.0, animations: {() -> Void in
-//    self.shape?.transform = CGAffineTransform(scaleX: 10, y: 10)
-//}, completion: {(_ finished: Bool) -> Void in
-//    UILabel.animate(withDuration: 6.0, animations: {() -> Void in
-//        self.shape?.transform = CGAffineTransform(scaleX: 1, y: 1)
-//    })
-//})
-
